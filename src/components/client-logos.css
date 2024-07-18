@@ -1,0 +1,15 @@
+.client-logos-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.client-logos-component2 {
+  width: 1985px;
+  height: 32px;
+}
+.client-logos-root-class-name {
+  margin-bottom: 100px;
+}

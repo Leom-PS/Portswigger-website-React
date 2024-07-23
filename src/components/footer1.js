@@ -16,7 +16,6 @@ const Footer1 = (props) => {
               <FooterColumnTitle
                 text="Burp Suite"
                 rootClassName="footer-column-title-root-class-name"
-                className=""
               ></FooterColumnTitle>
               <span
                 href="https://play.teleporthq.io/static/svg/default-img.svg"
@@ -41,7 +40,6 @@ const Footer1 = (props) => {
               <FooterColumnTitle
                 text="Vulnerabilities"
                 rootClassName="footer-column-title-root-class-name1"
-                className=""
               ></FooterColumnTitle>
               <span
                 href="https://play.teleporthq.io/static/svg/default-img.svg"
@@ -84,7 +82,6 @@ const Footer1 = (props) => {
               <FooterColumnTitle
                 text="Customers"
                 rootClassName="footer-column-title-root-class-name2"
-                className=""
               ></FooterColumnTitle>
               <span
                 href="https://play.teleporthq.io/static/svg/default-img.svg"
@@ -109,7 +106,6 @@ const Footer1 = (props) => {
               <FooterColumnTitle
                 text="Company"
                 rootClassName="footer-column-title-root-class-name3"
-                className=""
               ></FooterColumnTitle>
               <span
                 href="https://play.teleporthq.io/static/svg/default-img.svg"
@@ -146,7 +142,6 @@ const Footer1 = (props) => {
               <FooterColumnTitle
                 text="Insights"
                 rootClassName="footer-column-title-root-class-name4"
-                className=""
               ></FooterColumnTitle>
               <span
                 href="https://play.teleporthq.io/static/svg/default-img.svg"
@@ -176,7 +171,6 @@ const Footer1 = (props) => {
               <TwitterButton
                 text={props.componentText}
                 rootClassName="twitter-button-root-class-name"
-                className=""
               ></TwitterButton>
               <p className="footer1-text20 Footer">{props.text25}</p>
             </div>

@@ -15,6 +15,7 @@ import SampleLandingPageProFWImage from './views/sample-landing-page-pro-fw-imag
 import EnterprisePricingCurrent from './views/enterprise-pricing-current'
 import SampleLandingPageEnt from './views/sample-landing-page-ent'
 import TrialRequestTemplate2 from './views/trial-request-template-2'
+import APIScanningDemoLP from './views/api-scanning-demo-lp'
 import Home from './views/home'
 import SampleLandingPagePro from './views/sample-landing-page-pro'
 import NotFound from './views/not-found'
@@ -53,6 +54,11 @@ const App = () => {
           component={TrialRequestTemplate2}
           exact
           path="/trial-request-template-2"
+        />
+        <Route
+          component={APIScanningDemoLP}
+          exact
+          path="/api-scanning-demo-lp"
         />
         <Route component={Home} exact path="/" />
         <Route

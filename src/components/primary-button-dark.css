@@ -62,3 +62,7 @@
 .primary-button-dark-root-class-name12 {
   margin-bottom: 80px;
 }
+.primary-button-dark-root-class-name13 {
+  width: 100%;
+  margin-top: var(--dl-space-space-unit);
+}

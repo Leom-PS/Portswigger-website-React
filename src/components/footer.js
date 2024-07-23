@@ -11,10 +11,7 @@ const Footer = (props) => {
       <div className="footer-main">
         <div className="footer-container1">
           <div className="footer-container2">
-            <FooterColumnTitle
-              text="Burp Suite"
-              className=""
-            ></FooterColumnTitle>
+            <FooterColumnTitle text="Burp Suite"></FooterColumnTitle>
             <span
               href="https://play.teleporthq.io/static/svg/default-img.svg"
               className="Footer"
@@ -35,10 +32,7 @@ const Footer = (props) => {
             </span>
           </div>
           <div className="footer-container3">
-            <FooterColumnTitle
-              text="Vulnerabilities"
-              className=""
-            ></FooterColumnTitle>
+            <FooterColumnTitle text="Vulnerabilities"></FooterColumnTitle>
             <span
               href="https://play.teleporthq.io/static/svg/default-img.svg"
               className="Footer"
@@ -77,10 +71,7 @@ const Footer = (props) => {
             </span>
           </div>
           <div className="footer-container4">
-            <FooterColumnTitle
-              text="Customers"
-              className=""
-            ></FooterColumnTitle>
+            <FooterColumnTitle text="Customers"></FooterColumnTitle>
             <span
               href="https://play.teleporthq.io/static/svg/default-img.svg"
               className="Footer"
@@ -101,7 +92,7 @@ const Footer = (props) => {
             </span>
           </div>
           <div className="footer-container5">
-            <FooterColumnTitle text="Company" className=""></FooterColumnTitle>
+            <FooterColumnTitle text="Company"></FooterColumnTitle>
             <span
               href="https://play.teleporthq.io/static/svg/default-img.svg"
               className="Footer"
@@ -134,7 +125,7 @@ const Footer = (props) => {
             </span>
           </div>
           <div className="footer-container6">
-            <FooterColumnTitle text="Insights" className=""></FooterColumnTitle>
+            <FooterColumnTitle text="Insights"></FooterColumnTitle>
             <span
               href="https://play.teleporthq.io/static/svg/default-img.svg"
               className="Footer"
@@ -165,8 +156,8 @@ const Footer = (props) => {
               href="https://twitter.com/Burp_Suite"
               className="footer-text20"
             >
-              <span className=""></span>
-              <span className=""> Follow us</span>
+              <span></span>
+              <span> Follow us</span>
             </span>
             <p className="Footer footer-text23">{props.text25}</p>
           </div>

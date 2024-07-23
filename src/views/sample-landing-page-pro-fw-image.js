@@ -11,7 +11,7 @@ import HeaderFullWidthImage from '../components/header-full-width-image'
 import AccordionBlue from '../components/accordion-blue'
 import AccordionWhite from '../components/accordion-white'
 import QuotationPro from '../components/quotation-pro'
-import CardHorizontal from '../components/card-horizontal'
+import CardHorizontalLight from '../components/card-horizontal-light'
 import HeadshotSetOf3 from '../components/headshot-set-of-3'
 import CardPortrait from '../components/card-portrait'
 import PrimaryButtonDark from '../components/primary-button-dark'
@@ -163,11 +163,11 @@ const SampleLandingPageProFWImage = (props) => {
         />
       </div>
       <QuotationPro rootClassName="quotation-pro-root-class-name1"></QuotationPro>
-      <CardHorizontal
+      <CardHorizontalLight
         heading="Get Burp Suite certified"
         bodycopy="Prove your ability to detect and exploit common web vulnerabilities, with the security testing software used by more than 70,000 security professionals worldwide."
-        rootClassName="card-horizontal-root-class-name1"
-      ></CardHorizontal>
+        rootClassName="card-horizontal-light-root-class-name1"
+      ></CardHorizontalLight>
       <div className="sample-landing-page-pro-fw-image-container12">
         <h1 className="sample-landing-page-pro-fw-image-text08 Desktop-Heading1">
           Join the Burp Suite community

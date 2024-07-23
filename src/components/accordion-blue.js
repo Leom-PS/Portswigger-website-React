@@ -23,28 +23,22 @@ const AccordionBlue = (props) => {
                 </p>
                 <div className="accordion-blue-icons-container">
                   {!faq1Visible && (
-                    <div className="">
+                    <div>
                       <svg
                         viewBox="0 0 1024 1024"
                         className="accordion-blue-icon"
                       >
-                        <path
-                          d="M316 366l196 196 196-196 60 60-256 256-256-256z"
-                          className=""
-                        ></path>
+                        <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
                       </svg>
                     </div>
                   )}
                   {faq1Visible && (
-                    <div className="">
+                    <div>
                       <svg
                         viewBox="0 0 1024 1024"
                         className="accordion-blue-icon2"
                       >
-                        <path
-                          d="M316 658l-60-60 256-256 256 256-60 60-196-196z"
-                          className=""
-                        ></path>
+                        <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
                       </svg>
                     </div>
                   )}

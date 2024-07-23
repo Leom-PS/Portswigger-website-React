@@ -3,7 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import StarRatingWhite from '../components/star-rating-white'
-import ListItemWithIconDark from '../components/list-item-with-icon-dark'
+import ListItemWithIconDark3 from '../components/list-item-with-icon-dark3'
 import InputField from '../components/input-field'
 import PrimaryButtonDark from '../components/primary-button-dark'
 import './trial-request-template-1.css'
@@ -47,15 +47,15 @@ const TrialRequestTemplate1 = (props) => {
             </h2>
           </div>
           <div className="trial-request-template1-container5">
-            <ListItemWithIconDark rootClassName="list-item-with-icon-dark-root-class-name1"></ListItemWithIconDark>
-            <ListItemWithIconDark
+            <ListItemWithIconDark3 rootClassName="list-item-with-icon-dark3-root-class-name1"></ListItemWithIconDark3>
+            <ListItemWithIconDark3
               text="Catch critical bugs before code gets shipped"
-              rootClassName="list-item-with-icon-dark-root-class-name"
-            ></ListItemWithIconDark>
-            <ListItemWithIconDark
+              rootClassName="list-item-with-icon-dark3-root-class-name"
+            ></ListItemWithIconDark3>
+            <ListItemWithIconDark3
               text="Unleash AppSec to supercharge engineering"
-              rootClassName="list-item-with-icon-dark-root-class-name2"
-            ></ListItemWithIconDark>
+              rootClassName="list-item-with-icon-dark3-root-class-name2"
+            ></ListItemWithIconDark3>
           </div>
         </div>
         <div className="trial-request-template1-container6">

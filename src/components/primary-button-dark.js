@@ -7,7 +7,7 @@ import './primary-button-dark.css'
 const PrimaryButtonDark = (props) => {
   return (
     <div className={`primary-button-dark-container ${props.rootClassName} `}>
-      <button className="primary-button-dark-button button">
+      <button type="button" className="primary-button-dark-button button">
         <span className="primary-button-dark-text BodyLargeBold">
           {props.buttontext}
         </span>

@@ -19,7 +19,7 @@ const ExistingDSListItemWithIcon = (props) => {
           <span className="existing-ds-list-item-with-icon-text1">
             {props.bold}
           </span>
-          <span className="">{props.regular}</span>
+          <span>{props.regular}</span>
         </span>
       </div>
     </div>

@@ -251,7 +251,6 @@ body.insertAdjacentHTML("afterbegin",\`<header class="page-header" id="top">
         </header>\`);
         }
 </script>`}
-            className=""
           ></Script>
         </div>
       </div>

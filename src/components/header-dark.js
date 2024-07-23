@@ -64,7 +64,6 @@ const HeaderDark = (props) => {
           <SecondaryButtonLight
             buttontext1="Login"
             rootClassName="secondary-button-light-root-class-name1"
-            className=""
           ></SecondaryButtonLight>
         </div>
       </div>

@@ -1,0 +1,55 @@
+.card-horizontal-dark-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.card-horizontal-dark-frame5496 {
+  gap: 20px;
+  width: 1000px;
+  height: auto;
+  display: flex;
+  padding: 28px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.card-horizontal-dark-image10 {
+  width: 526px;
+  height: 220px;
+}
+.card-horizontal-dark-frame5495 {
+  gap: 20px;
+  width: 395px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.card-horizontal-dark-tags {
+  gap: 8px;
+  height: 20px;
+  display: flex;
+  padding: 4px 8px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(19, 83, 185, 1);
+}
+.card-horizontal-dark-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.card-horizontal-dark-text2 {
+  fill: var(--dl-color-default-white);
+  color: var(--dl-color-default-white);
+}
+.card-horizontal-dark-text3 {
+  fill: var(--dl-color-default-white);
+  color: var(--dl-color-default-white);
+  width: 100%;
+}

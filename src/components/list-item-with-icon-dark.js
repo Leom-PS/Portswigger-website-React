@@ -12,7 +12,7 @@ const ListItemWithIconDark = (props) => {
       <div className="list-item-with-icon-dark-frame1">
         <img
           alt="CheckInCircleOutlined1216"
-          src="/external/checkincircleoutlined1216-agf.svg"
+          src="/external/checkincircleoutlined1216-agf1.svg"
           className="list-item-with-icon-dark-check-in-circle-outlined"
         />
         <span className="list-item-with-icon-dark-text BodyLarge">

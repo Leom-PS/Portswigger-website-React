@@ -1,0 +1,103 @@
+.testimonial3-max-width {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial3-thumbnail {
+  max-width: 640px;
+}
+.testimonial3-content {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  max-width: 800px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.testimonial3-stars {
+  fill: var(--dl-color-theme-primary1);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.testimonial3-avatar {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.testimonial3-avatar-content {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.testimonial3-text1 {
+  font-weight: 600;
+}
+@media(max-width: 1600px) {
+  .testimonial3-testimonial13 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .testimonial3-thumbnail {
+    height: 367px;
+  }
+  .testimonial3-text {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 600;
+  }
+  .testimonial3-text1 {
+    fill: var(--dl-color-theme-secondary2);
+    color: var(--dl-color-theme-secondary2);
+    font-family: Inter;
+  }
+  .testimonial3-text2 {
+    fill: var(--dl-color-theme-secondary2);
+    color: var(--dl-color-theme-secondary2);
+    font-family: Inter;
+  }
+}
+@media(max-width: 991px) {
+  .testimonial3-max-width {
+    flex-direction: column;
+  }
+  .testimonial3-content {
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial3-avatar {
+    gap: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+@media(max-width: 767px) {
+  .testimonial3-max-width {
+    padding: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 479px) {
+  .testimonial3-max-width {
+    padding: var(--dl-space-space-oneandhalfunits);
+  }
+  .testimonial3-text {
+    text-align: center;
+  }
+  .testimonial3-avatar {
+    flex-direction: column;
+  }
+  .testimonial3-avatar-content {
+    align-items: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}

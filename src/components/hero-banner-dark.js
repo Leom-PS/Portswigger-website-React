@@ -16,10 +16,7 @@ const HeroBannerDark = (props) => {
           <span className="hero-banner-dark-text1 Desktop-Heading4Light">
             {props.copy}
           </span>
-          <SecondaryButtonDark
-            rootClassName="secondary-button-dark-root-class-name1"
-            className=""
-          ></SecondaryButtonDark>
+          <SecondaryButtonDark rootClassName="secondary-button-dark-root-class-name1"></SecondaryButtonDark>
         </div>
         <img
           alt="Tasksubmenu25003"

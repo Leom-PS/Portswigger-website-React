@@ -121,6 +121,12 @@
   width: 100%;
   margin-bottom: var(--dl-space-space-twounits);
 }
+.input-field-root-class-name17 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  width: 100%;
+  margin-bottom: var(--dl-space-space-twounits);
+}
 .input-field-root-class-name18 {
   fill: var(--dl-color-theme-neutral-dark);
   color: var(--dl-color-theme-neutral-dark);
@@ -142,6 +148,12 @@
 .input-field-root-class-name21 {
   fill: var(--dl-color-default-white);
   color: var(--dl-color-default-white);
+  width: 100%;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.input-field-root-class-name22 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
   width: 100%;
   margin-bottom: var(--dl-space-space-twounits);
 }
@@ -172,6 +184,9 @@
     margin-top: var(--dl-space-space-unit);
   }
   .input-field-root-class-name15 {
+    margin-top: var(--dl-space-space-unit);
+  }
+  .input-field-root-class-name17 {
     margin-top: var(--dl-space-space-unit);
   }
   .input-field-root-class-name18 {
